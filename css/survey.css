@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kanit', sans-serif;
+  }
+  .body{
+    background-image: url(../picture/surveybg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    filter: blur(3px);
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #title-div h2{ 
+    color: #32CD32;
+    font-size: 50px;
+    display: grid;
+  }
+  #title-div{
+    text-align: center;
+  }
+  #description{
+    text-align:center;
+    font-size: 24px;
+    align-self: center;
+    margin:0 0 60px 0;
+    color: #5ab94e;
+  }
+.butong{
+    align-items: center;
+    padding: 30px 0;
+}
+  #survey-form{
+    display:flex;
+    flex-direction:column;
+    color:#FFFAF1;
+    background-color: rgba(0,0,0,0.6);
+    align-self: center;
+    width:100%;
+    height: 110%;
+    padding:1.5em;
+    margin-bottom:20px;
+    max-width:1000px;
+  }
+  .flex-column-class{
+    display:flex;
+    flex-direction:column;
+    padding: 0 1% 1.5% 1%;
+  }
+  div{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:10px;
+  }
+  #submit{
+    color:black;
+  }
+#name-label{
+  width: 100%;
+  padding-left: 9px;
+}
+#lname::placeholder{
+  font-size: 1rem;
+}
+#number-label{
+  padding: 0px 9px;
+}
+#dropdown-menu{
+  display: inline-block;
+}
+  
